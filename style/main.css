@@ -1,0 +1,71 @@
+html {
+    background-color: rgb(96 186 193 / 32%);
+}
+body
+ {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    margin-bottom: 80px;
+}
+
+p {
+    letter-spacing: 15px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+}
+p:first-letter {
+    color: brown;
+    font-size: large;
+}
+p:nth-child(2n) {
+    padding-left: 35px;
+}
+p:nth-child(2n):first-letter {
+    color: #000;
+}
+
+.resetButton {
+    position: fixed;
+    bottom: 30px;
+    margin: auto;
+    border: none;
+    background-color: yellowgreen;
+    padding: 10px 30px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 6px 1px 0px rgba(0, 98, 0, 0.75);
+    -moz-box-shadow: 0px 6px 1px 0px rgba(0, 98, 0, 0.75);
+    box-shadow: 0px 6px 1px 0px rgba(0, 98, 0, 0.75);
+}
+
+.resetButton:focus {
+    animation-name: anima;
+    animation-duration: 0.9s;
+    margin-top: 56px;
+    border: none;
+    outline: -webkit-focus-ring-color auto 0px;
+
+}
+
+@keyframes anima {
+
+
+    25% {
+        margin-top: 60px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 98, 0, 0.75);
+    }
+
+
+    100% {
+        margin-top: 50px;
+        box-shadow: 0px 6px 1px 0px rgba(0, 98, 0, 0.75);
+    }
+}
