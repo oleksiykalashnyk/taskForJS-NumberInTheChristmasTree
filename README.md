@@ -1,4 +1,4 @@
-[numbersToNewSymbols](https://github.com/oleksiykalashnyk/taskForJS-NumberInTheChristmasTree)  ([demo](https://oleksiykalashnyk.github.io/taskForJS-NumberInTheChristmasTree/))
+[NumberInTheChristmasTree](https://github.com/oleksiykalashnyk/taskForJS-NumberInTheChristmasTree)  ([demo](https://oleksiykalashnyk.github.io/taskForJS-NumberInTheChristmasTree/))
 ========================
 
 Author of the idea: 
